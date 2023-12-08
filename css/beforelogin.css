@@ -1,7 +1,7 @@
 
   
 .header {
-    background-color: #333;
+    background-color: #4086ee;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -53,9 +53,9 @@
     
 }
 input[type="button"] {
-    background-color: #4CAF50; /* 緑色の背景 */
+    background-color: white; /* 緑色の背景 */
     border: none;
-    color: white;
+    color: gray;
     padding: 10px 20px; /* パディングを少し小さくして大きく見せる */
     text-align: center;
     text-decoration: none;
@@ -68,11 +68,11 @@ input[type="button"] {
 }
 
 input[type="button"]:hover {
-    background-color: #45a049; /* ホバー時に少し暗い緑色に変わる */
+    background-color: #cbcbcb; /* ホバー時に少し暗い緑色に変わる */
 }
 
 input[type="button"]:active {
-    background-color: #3e8e41;
+    background-color: #8c8c8c;
     box-shadow: 0 5px #666; /* クリック時に影を小さくする */
     transform: translateY(4px); /* クリック時に少し下に移動するように見せる */
 }
@@ -112,8 +112,8 @@ input[type="button"]:active {
     outline : none;
   }
 .post-button {
-    background-color: #4c61af; /* ボタンの背景色 */
-    color: white; /* ボタンのテキスト色 */
+    background-color: white; /* ボタンの背景色 */
+    color: gray; /* ボタンのテキスト色 */
     padding: 10px 24px; /* ボタンのパディング */
     border: none; /* ボタンの境界線を削除 */
     cursor: pointer; /* マウスカーソルをポインタに変更 */
