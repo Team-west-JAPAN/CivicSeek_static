@@ -46,7 +46,7 @@
         margin-right: 30px;
     }
 
-    search_container,
+    .search_container,
     .post-button {
         width: 100%;
         margin: 10px 0;
@@ -163,6 +163,8 @@ ul li {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     /* ソフトな影を追加 */
 }
+
+/* button */
 
 /* メディアクエリ：モバイルデバイス用のスタイル調整 */
 @media (max-width: 600px) {
