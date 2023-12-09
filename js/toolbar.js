@@ -1,13 +1,12 @@
-<script>
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   // プロフィールリンクのクリックイベント
-  document.getElementById('profile-link').addEventListener('click', function(e) {
+  document.getElementById('profile-link').addEventListener('click', function (e) {
     e.preventDefault();
     showGrid('gridA');
   });
 
   // 設定リンクのクリックイベント
-  document.getElementById('settings-link').addEventListener('click', function(e) {
+  document.getElementById('settings-link').addEventListener('click', function (e) {
     e.preventDefault();
     showGrid('gridB');
   });
@@ -17,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
   function showGrid(gridId) {
     // すべてのグリッドを非表示にする
     var grids = document.querySelectorAll('.content > div');
-    grids.forEach(function(grid) {
+    grids.forEach(function (grid) {
       grid.style.display = 'none';
     });
 
@@ -25,4 +24,3 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById(gridId).style.display = 'block';
   }
 });
-</script>
