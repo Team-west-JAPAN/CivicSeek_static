@@ -68,12 +68,12 @@ input[type="button"] {
 }
 
 input[type="button"]:hover {
-    background-color: #cbcbcb; /* ホバー時に少し暗い緑色に変わる */
+    background-color: ; /* ホバー時に少し暗い緑色に変わる */
 }
 
 input[type="button"]:active {
-    background-color: #8c8c8c;
-    box-shadow: 0 5px #666; /* クリック時に影を小さくする */
+    background-color: rgb(255, 217, 50);
+    box-shadow: 0 5px rgb(255, 217, 50); /* クリック時に影を小さくする */
     transform: translateY(4px); /* クリック時に少し下に移動するように見せる */
 }
 .search_container{
