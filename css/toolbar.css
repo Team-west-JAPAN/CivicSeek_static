@@ -51,7 +51,7 @@
     
 }
 input[type="button"] {
-    background-color: #4CAF50; /* 緑色の背景 */
+    background-color: rgb(255, 217, 50); /* 緑色の背景 */
     border: none;
     color: white;
     padding: 10px 20px; /* パディングを少し小さくして大きく見せる */
@@ -66,12 +66,12 @@ input[type="button"] {
 }
 
 input[type="button"]:hover {
-    background-color: #45a049; /* ホバー時に少し暗い緑色に変わる */
+    background-color: rgb(255, 217, 50); /* ホバー時に少し暗い緑色に変わる */
 }
 
 input[type="button"]:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px #666; /* クリック時に影を小さくする */
+    background-color: rgb(255, 217, 50);
+    box-shadow: 0 5px rgb(255, 217, 50); /* クリック時に影を小さくする */
     transform: translateY(4px); /* クリック時に少し下に移動するように見せる */
 }
 .search_container{
